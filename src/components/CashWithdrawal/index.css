@@ -1,0 +1,81 @@
+.app-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffff;
+    height:100vh;
+}
+
+.app-content-container{
+    background-color:#150b3e;
+    border-radius:10px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.profile-container{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.initail-container{
+    background-color:#c7d2fe;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    text-align:center;
+}
+
+.initial-text{
+    font-family:"Roboto";
+    font-size:15px;
+    color:#585076;
+}
+
+.profile-name{
+    font-family:"Roboto";
+    font-size:20px;
+    font-weight:400;
+    color:#d4d2db;
+    margin-left:10px;
+}
+
+.balance-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.labance-text{
+    font-family:"Roboto";
+    font-size:17px;
+    color:#7c3aed;
+}
+
+.balance{
+    font-family:"Roboto";
+    font-size:20px;
+    font-weight:bold;
+    color:#d4d2db;
+}
+
+.withdraw-text{
+    font-family:"Roboto";
+    font-size:20px;
+    font-weight:bold;
+    color:#d4d2db;
+}
+
+.description{
+    font-family:"Roboto";
+    font-size:15px;
+    color:#382f5a;
+}
+
+.denomination-list{
+    display:flex;
+    align-items: center;
+}
